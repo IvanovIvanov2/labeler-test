@@ -1,4 +1,4 @@
-name: 'Pull Request Labeler'
+name: 'Test new beta'
 on:
   - pull_request_target
 
@@ -9,6 +9,10 @@ jobs:
       pull-requests: write
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/labeler@v4
-        with:
-          repo-token: '${{ secrets.GITHUB_TOKEN }}'
+      - uses: IvanovIvanov2/labeler@v5.0.0-alpha.1
+      
+      - uses: IvanovIvanov2/labeler@4f052778de9a9b80cb16cfb9079b02287285a4cb
+      
+      - uses: IvanovIvanov2/labeler@v5.0.0-beta.1
+      
+
