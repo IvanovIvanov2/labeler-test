@@ -15,6 +15,4 @@ jobs:
       
       - uses: IvanovIvanov2/labeler@v5.0.0-beta
       
-      - uses: IvanovIvanov2/labeler@v5.0.0-beta.1
-      
 
